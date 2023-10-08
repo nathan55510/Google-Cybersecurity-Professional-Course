@@ -22,11 +22,11 @@ Assets managed by the IT Department include:
 remote workstations, headsets, cables, keyboards, mice, docking stations
 surveillance cameras, etc.
 
-● Storefront products available for retail sale on site and online; stored in the
+● Storefront products available for retail sale on-site and online; stored in the
 company’s adjoining warehouse
 
 ● Management of systems, software, and services: accounting
-telecommunication, database, security, ecommerce, and inventory
+telecommunication, database, security, e-commerce, and inventory
 management
 
 ● Internet access
@@ -58,7 +58,7 @@ controls and adherence to compliance best practices.
 
 Additional comments
 
-The potential impact from the loss of an asset is rated as medium, because the IT
+The potential impact from the loss of an asset is rated as medium because the IT
 department does not know which assets would be at risk. The risk to assets or fines
 from governing bodies is high because Botium Toys does not have all of the necessary
 controls in place and is not fully adhering to best practices related to compliance
@@ -110,3 +110,42 @@ schedule in place for these tasks and intervention methods are unclear.
 front, and warehouse of products, has sufficient locks, up-to-date
 closed-circuit television (CCTV) surveillance, as well as functioning fire
 detection and prevention systems.
+
+
+
+# My Assessment 
+
+After reviewing Botium Toys' security posture, there are several priority areas needing improvement to address gaps in controls and compliance best practices. Implementing changes in these areas will significantly reduce Botium Toys' risk exposure.
+
+Key findings include:
+
+- Access management controls like least privilege and separation of duties need to be implemented to reduce insider threat risk and limit data exposure.
+
+- Encryption should be deployed to protect confidential customer and cardholder data both at rest and in transit.
+Logging, monitoring, and detection controls are lacking, including IDS/IPS, leaving malicious activity unidentified.
+
+- Disaster recovery capabilities such as comprehensive backups and incident response plans need to be established to enable restoration after incidents.
+
+- Network permeability should be analyzed and reduced through tighter firewall rules, network segmentation, and remote access controls.
+
+- Password policies and password management capabilities need to be enhanced to bring complexities and management in line with best practices.
+
+- Business continuity risks from legacy systems should be assessed and a modernization roadmap defined.
+
+- Physical and operational security controls provide a good baseline but regular auditing will identify enhancement opportunities.
+
+- By taking action in these key areas identified, Botium Toys can significantly improve its security posture and comply with industry best practices. The findings provide a roadmap for the security and compliance enhancements needed most.
+
+# European Compliance
+
+Additionally, the manager is interested in ensuring that they comply with regulations related to internally processing and accepting online payments and conducting business in the European Union (E.U.). I have assessed that compliance with data privacy regulations like GDPR needs to be reviewed and controls put in place to avoid violations and penalties:
+
+- Audit of cardholder data environments against PCI DSS requirements and remediate any gaps.
+
+- Assessment of customer authentication methods and protocols for PSD2 compliance.
+
+- Review of data governance, retention and processing activities for GDPR alignment.
+
+- Inclusion of GDPR and PCI DSS in disaster recovery and business continuity planning.
+
+- Discussion of EU requirements and global compliance when making enhancements like logging, encryption, access controls.
